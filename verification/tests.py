@@ -37,8 +37,8 @@ TESTS = {
     ],
     "Extra": [
         {
-            "input": ["45", 3],
-            "answer": "121",
+            "input": ["45", 1],
+            "answer": "5",
         },
         {
             "input": ["54997", 2],
