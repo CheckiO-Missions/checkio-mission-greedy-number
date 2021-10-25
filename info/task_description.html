@@ -1,20 +1,24 @@
 <!-- Describe task in general -->
 
 <p>
-    Sum two passed ints
+    Your mission here is to find the biggest possible number using specific rules.
 </p>
 
-<p style="text-align: center;">
-    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
-</p>
+<ul>
+    <li>The number has a specific length, passed through the second argument.</li>
+    <li>The number consists of digests passed through the first argument.</li>
+    <li>Every digit can be used only once.</li>
+    <li>The order of the digits remains the same.</li>
+    <li>It is always enough digits for the resulting number.</li>
+</ul>
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Input: </strong> Two arguments. Both are ints.
+    <strong>Input: </strong> Two arguments. String and Integer
 </p>
 
 <p>
-    <strong>Output: </strong> Int. 
+    <strong>Output: </strong> String.
 </p>
 
 
@@ -26,17 +30,9 @@
 
 <pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
 
-<!-- Here you can explain how it can be used in development -->
-<!-- The section is optional -->
-<p class="for_info_only">
-
-    <strong>How it’s used: </strong>
-    <i>(math is used everywhere)</i>
-</p>
-
 <!-- Here you can explain some constraints for input-->
 <!-- The section is optional -->
 <p>
     <strong>Precondition:</strong>
-    <i>both given ints should be between -1000 and 1000</i>
+    <i>length of the string(1st argument) is bigger or equal integer(2nd argument).</i>
 </p>
